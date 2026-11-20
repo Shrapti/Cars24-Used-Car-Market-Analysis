@@ -2,7 +2,9 @@ Cars24: Used Car Market Analysis & Price Intelligence
 A Python-Based Web Scraping and Used Car Price Analysis Project
 
 Developed by: Shrapti Bedre
+
 1. Project Overview
+
 Cars24: Used Car Market Analysis & Price Intelligence is a Python-based
 web scraping and data analysis project designed to explore used-car
 listings and understand the factors associated with their listed prices.
@@ -20,7 +22,9 @@ transmission, kilometres driven, ownership, and listing price.
 The current notebook extracts 10 car listings. This is an initial
 sample for demonstrating the data collection and analysis workflow, not
 a representative sample of the entire used-car market.
+
 2. Project Objectives
+
 - Collect used-car listing information from the Cars24 website.
 - Understand the structure of website HTML and embedded page data.
 - Extract relevant vehicle details using Python and regular
@@ -33,7 +37,9 @@ a representative sample of the entire used-car market.
 - Create derived variables such as car age and price in lakhs.
 - Explore used-car prices across available vehicle attributes.
 - Communicate observations through data analysis and visualizations.
+- 
 3. Data Source
+
 Source: Cars24 Used Cars
 Website: https://www.cars24.com/buy-used-cars/\
 Data Collection Method: Python-based web scraping and extraction
@@ -55,8 +61,10 @@ The extracted dataset includes:
 Note: Website content and listing availability may change over time.
 The current extraction logic depends on the page structure and embedded
 data available when the notebook is executed.
+
 4. Technologies and Libraries
-  Technology                          Application
+
+Technology                          Application
   Python                              Core programming language
 
   Requests                            Sending HTTP requests and
@@ -76,7 +84,9 @@ tabular data
 
   Seaborn                             Statistical data visualization
 Jupyter Notebook                    Development and experimentation
+
 5. Project Implementation
+
 Step 1: Website Access
 Used the Python Requests library to send an HTTP request to the Cars24
 used-cars page and retrieve the webpage response.
@@ -105,7 +115,9 @@ support price-related analysis.
 Step 9: Exploratory Data Analysis
 Used the collected vehicle attributes to investigate patterns and
 compare listing prices within the available sample.
+
 6. Dataset Overview
+
 The current extracted dataset contains 10 records and 11 columns.
   Dataset Attribute                   Details
   Total records                       10
@@ -132,7 +144,9 @@ Ownership      Ownership count shown in the listing
 Price          Listing price in Indian rupees
 Car_Age        Derived age of the car
 Price_Lakhs    Listing price converted into lakhs
+
 7. Initial Observations
+
 Based on the 10 records displayed in the current notebook:
 - The extracted listings include brands such as Hyundai, KIA, Honda,
   Maruti, Tata, Mahindra, and Renault.
@@ -145,7 +159,9 @@ Based on the 10 records displayed in the current notebook:
 These observations describe only the collected records. A larger dataset
 is required before drawing conclusions about broader used-car market
 trends.
+
 8. Project Structure
+
 Cars24-Used-Car-Market-Analysis/
 │
 ├── Car Market Analysis – Cars24.ipynb
@@ -153,7 +169,9 @@ Cars24-Used-Car-Market-Analysis/
 ├── cars24_used_cars.csv
 │
 └── README.md
+
 9. Installation and Execution
+
 Follow the steps below to run the project locally.
 
 Prerequisites: - Python installed on your system. - Jupyter Notebook
@@ -173,7 +191,9 @@ creation, data inspection, and analysis.
 
 The notebook exports the extracted data as:
 cars24_used_cars.csv
+
 10. Skills Demonstrated
+
 This project demonstrates practical experience in:
 - Python programming
 - HTTP requests and webpage access
@@ -188,7 +208,9 @@ This project demonstrates practical experience in:
 - Feature creation and data preparation
 - Exploratory Data Analysis (EDA)
 - Data analysis documentation
+
 11. Limitations and Future Improvements
+
 Current Limitations
 - The current dataset contains only 10 vehicle listings.
 - The extracted sample may not represent all Cars24 listings,
@@ -205,8 +227,10 @@ Future Improvements
 - Explore price patterns across brands, models, fuel types, and
   transmission categories.
 - Develop an interactive dashboard using Power BI or Python
-  visualization tools.
+ visualization tools.
+
 12. Conclusion
+
 Cars24: Used Car Market Analysis & Price Intelligence demonstrates how
 Python can be used to access website data, extract structured
 information, and prepare a dataset for analysis.
